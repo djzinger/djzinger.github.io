@@ -1,15 +1,15 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-<title>Resurrection</title>
+
 <meta http-equiv = "refresh" content = " 0 ; url = https://editor.p5js.org/djzinger/full/aUYcrZhPU" />
+
 </head>
+
 <body>
 
-<h1>HI ZOEY</h1>
-<p>I'M BAAAACK!</p>
-
-<iframe src="https://editor.p5js.org/djzinger/embed/aUYcrZhPU"></iframe>
-
 </body>
+
 </html>
