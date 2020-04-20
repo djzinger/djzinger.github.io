@@ -6,7 +6,7 @@ function preload() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight,WEBGL);
-    background(220);
+    scarySound.play();
   }
   
   function windowResized() {
@@ -17,7 +17,6 @@ function setup() {
     background(200);
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
-    scarySound.play();
     sphere(150);
   }
   
