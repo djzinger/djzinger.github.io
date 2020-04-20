@@ -20,3 +20,7 @@ function setup() {
     sphere(150);
   }
   
+  function mouseClicked(event) {
+    remove();
+  }
+  
