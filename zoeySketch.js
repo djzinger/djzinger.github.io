@@ -1,4 +1,4 @@
-var scarySound;
+var soundClip;
 
 function preload() {
   soundClip = loadSound('Symphony5.mp3');  
@@ -6,7 +6,6 @@ function preload() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight, WEBGL);
-    soundClip.play(); 
   }
   
   function windowResized() {
@@ -26,7 +25,7 @@ function setup() {
     } 
     else {
       background(0, 255, 0);
-      noLoop();
+      soundClip.play(); 
     }    
 
   }
