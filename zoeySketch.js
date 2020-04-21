@@ -15,7 +15,6 @@ function setup() {
   
   function draw() {
     background(200);
-    scarySound.play();
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
     sphere(150);
