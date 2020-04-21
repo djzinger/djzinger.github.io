@@ -21,5 +21,11 @@ function setup() {
   }
   
   function mouseClicked(event) {
+    if (song.isPlaying()) {
+      background(255, 0, 0);
+    } 
+    else {
+      background(0, 255, 0);
+    }    
     remove();
   }
