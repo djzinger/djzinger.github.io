@@ -1,7 +1,7 @@
 var scarySound;
 
 function preload() {
-  soundClip = loadSound('Beethoven-Symphony5-1.mp3');  
+  soundClip = loadSound('Symphony5.mp3');  
 }
 
 function setup() {
