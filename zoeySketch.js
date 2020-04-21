@@ -1,7 +1,7 @@
 var scarySound;
 
 function preload() {
-  scarySound = loadSound("Villainous.mp3");  
+  scarySound = loadSound('Villainous.mp3');  
 }
 
 function setup() {
@@ -15,9 +15,9 @@ function setup() {
   function draw() {
     background(200);
     scarySound.play();
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    sphere(150);
+   // rotateX(frameCount * 0.01);
+   // rotateY(frameCount * 0.01);
+   // sphere(150);
   }
   
   function mouseClicked(event) {
