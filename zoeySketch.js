@@ -21,7 +21,7 @@ function setup() {
   }
   
   function mouseClicked(event) {
-    if (song.isPlaying()) {
+    if (scarySound.isPlaying()) {
       background(255, 0, 0);
     } 
     else {
