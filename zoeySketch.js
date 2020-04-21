@@ -6,6 +6,7 @@ function preload() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight, WEBGL);
+    soundClip.play(); 
   }
   
   function windowResized() {
@@ -15,7 +16,6 @@ function setup() {
   function draw() {
 
     background(200);
-    soundClip.play();
 
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
@@ -31,13 +31,3 @@ function setup() {
 
   }
   
-  function stopProgram() {
-    if (soundClip.isPlaying()) {
-      background(255, 0, 0);
-    } 
-    else {
-      background(0, 255, 0);
-      noLoop();
-    }    
-    //remove();
-  }
