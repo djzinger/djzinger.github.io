@@ -5,7 +5,8 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight, WEBGL);
+    let cnv = createCanvas(windowWidth, windowHeight, WEBGL);
+    cnv.mouseClicked(stopProgram);
   }
   
   function windowResized() {
@@ -20,7 +21,7 @@ function setup() {
    // sphere(150);
   }
   
-  function mouseClicked(event) {
+  function stopProgram() {
     if (scarySound.isPlaying()) {
       background(255, 0, 0);
     } 
