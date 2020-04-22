@@ -6,6 +6,7 @@ function preload() {
 
 function setup() {
     createCanvas(windowWidth, windowHeight, WEBGL);
+    noLoop();
   }
   
   function windowResized() {
@@ -32,5 +33,9 @@ function setup() {
     rotateY(frameCount * 0.01);
     sphere(150);
 
+  }
+
+  function mousePressed() {
+    redraw();
   }
   
