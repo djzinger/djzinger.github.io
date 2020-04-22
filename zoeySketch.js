@@ -12,21 +12,25 @@ function setup() {
     resizeCanvas(windowWidth, windowHeight);
   }  
   
+  var timesExecuted = 0;
+  var backgroundSwitch = true;
+
   function draw() {
 
     background(200);
 
+    if (backgrpindSwitch) {
+      background(125, 0, 0);
+      backgroundSwitch = false;
+    } 
+    else {
+      background(0, 125, 0);
+      backgroundSwitch = true;
+    }    
+
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
     sphere(150);
-
-    if (soundClip.isPlaying()) {
-      background(255, 0, 0);
-    } 
-    else {
-      background(0, 255, 0);
-      soundClip.play(); 
-    }    
 
   }
   
