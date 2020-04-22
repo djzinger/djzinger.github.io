@@ -19,7 +19,7 @@ function setup() {
 
     background(200);
 
-    if (backgrpindSwitch) {
+/*    if (backgroundSwitch) {
       background(125, 0, 0);
       backgroundSwitch = false;
     } 
@@ -27,7 +27,7 @@ function setup() {
       background(0, 125, 0);
       backgroundSwitch = true;
     }    
-
+*/
     rotateX(frameCount * 0.01);
     rotateY(frameCount * 0.01);
     sphere(150);
